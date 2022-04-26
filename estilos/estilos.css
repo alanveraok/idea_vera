@@ -1,0 +1,243 @@
+body {
+  background-color: #9c6392;
+  color: whitesmoke; }
+
+.navbar-toggler {
+  background-color: #9c6392; }
+
+a {
+  text-decoration: none; }
+  a:active {
+    background-color: #9c6392;
+    color: #1f1111; }
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  margin-bottom: 30px; }
+
+h2,
+h3,
+h4 {
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+  margin-top: 35px; }
+
+.partes {
+  font-size: 20px;
+  text-align: justify;
+  flex-direction: row;
+  margin-left: 16px;
+  padding: 20px; }
+  .partes .media {
+    margin: 0 auto;
+    height: 100%;
+    width: 50%; }
+
+.speaking,
+.listening,
+.writing,
+.reading {
+  border: 2px solid white;
+  padding: 20px;
+  margin-top: 35px; }
+  .speaking p:hover,
+  .speaking ul:hover,
+  .listening p:hover,
+  .listening ul:hover,
+  .writing p:hover,
+  .writing ul:hover,
+  .reading p:hover,
+  .reading ul:hover {
+    background-color: white;
+    color: #9c6392; }
+
+.formulario {
+  margin: 40px;
+  background-image: linear-gradient(to bottom, #9c6392, #c198ad);
+  border: 2px solid;
+  padding: 30px; }
+  .formulario button {
+    color: whitesmoke;
+    background-color: #9c6392;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    padding: 0 15px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    height: 32px;
+    font-size: 14px;
+    transition: all 0.2s ease-in-out; }
+    .formulario button:hover {
+      transform: scale(1.1);
+      background-color: #9c6392;
+      color: whitesmoke;
+      border: 1px solid whitesmoke; }
+
+.grid-footer {
+  grid-area: grid-footer;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  border: 2px solid whitesmoke; }
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic; }
+  h1:hover {
+    transform: scale(1.6); }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.container-banner {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  /* height: auto; */
+  margin: 0 auto; }
+  .container-banner .col1 p {
+    font-size: 60px;
+    text-align: start;
+    align-items: center; }
+  .container-banner .col2 img {
+    width: 450px;
+    height: auto; }
+
+.row {
+  align-items: center; }
+
+.succeed {
+  text-align: center;
+  font-style: italic;
+  font-size: 50px; }
+
+.clearfix {
+  padding: 20px;
+  text-align: center;
+  font-size: 50px; }
+  .clearfix:hover {
+    background-color: white;
+    color: #9c6392; }
+  .clearfix iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+.tranformacion1:hover {
+  transform: scale(1.6); }
+
+.cards-exams {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-evenly; }
+  .cards-exams .card {
+    border: solid 4px black; }
+  .cards-exams .card-text {
+    color: #9c6392;
+    text-align: justify; }
+
+.faqs {
+  text-align: center;
+  margin-top: 50px; }
+
+.carrusel-titulo {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 20px; }
+
+#carouselExampleIndicators {
+  width: 300px;
+  margin: 0 auto; }
+
+.carousel-inner {
+  vertical-align: middle;
+  width: 280px;
+  height: 380px; }
+
+.accordion-flush {
+  color: #9c6392; }
+
+.accordion-button:not(.collapsed) {
+  color: whitesmoke;
+  background-color: #9c6392; }
+
+.accordion {
+  margin: 20px 20px; }
+
+.news-img {
+  text-align: center; }
+
+.plataforma img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*para mobile*/
+@media (max-width: 767px) {
+  body {
+    background-color: whitesmoke;
+    color: #9c6392; }
+  .container-banner {
+    flex-direction: row-reverse; }
+  .container-banner p {
+    display: none; }
+  .clearfix iframe {
+    width: 100%; }
+  .partes {
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    color: #9c6392; }
+  .media {
+    display: none; }
+  .partes .writing img {
+    border: 2px solid #9c6392; }
+  .speaking,
+  .listening,
+  .writing,
+  .reading {
+    border: 2px solid #9c6392;
+    padding: 20px;
+    margin-top: 35px; }
+  .news-img,
+  .plataforma-img {
+    display: none; }
+  .row {
+    flex-direction: column; }
+  .cards-exams {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px; } }
+
+/*tablet*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background-color: white;
+    color: #9c6392; }
+  .partes {
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    color: #9c6392; }
+  .speaking,
+  .listening,
+  .writing,
+  .reading {
+    border: 2px solid #9c6392;
+    padding: 20px;
+    margin-top: 35px; }
+  .partes .writing img {
+    border: 2px solid #9c6392; }
+  .media {
+    margin: 0 auto;
+    height: 100%;
+    width: 50%; }
+  .news-img,
+  .plataforma-img {
+    display: none; } }

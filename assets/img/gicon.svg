@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="gicon.svg"
+   xml:space="preserve"
+   style="enable-background:new 0 0 56.69 56.69;"
+   viewBox="0 0 56.69 56.69"
+   y="0px"
+   x="0px"
+   id="Layer_1"
+   version="1.1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><metadata
+   id="metadata54"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs52">
+	
+	
+
+		
+	
+			
+			
+		
+				
+			</defs><sodipodi:namedview
+   inkscape:current-layer="Layer_1"
+   inkscape:window-maximized="1"
+   inkscape:window-y="-8"
+   inkscape:window-x="-8"
+   inkscape:cy="29.686087"
+   inkscape:cx="65.045169"
+   inkscape:zoom="6.4339905"
+   showgrid="false"
+   id="namedview50"
+   inkscape:window-height="1017"
+   inkscape:window-width="1920"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0"
+   guidetolerance="10"
+   gridtolerance="10"
+   objecttolerance="10"
+   borderopacity="1"
+   bordercolor="#666666"
+   pagecolor="#ffffff"
+   inkscape:pagecheckerboard="0" />
+<style
+   id="style41"
+   type="text/css">
+	.st0{fill:#FF69B4;}
+	.st1{fill:#FFFFFF;}
+</style>
+<title
+   id="title43">Subte de Buenos Aires - Línea D</title>
+<path
+   id="path45"
+   class="st0"
+   d="M 28.339844 0 C 12.694644 -4.7369516e-15 0 12.714738 0 28.335938 C 2.3684758e-15 43.997038 12.694644 56.6875 28.339844 56.6875 C 43.996944 56.6875 56.6875 43.997138 56.6875 28.335938 C 56.6875 12.714738 43.996944 0 28.339844 0 z M 29.160156 13.777344 C 32.65412 13.777344 35.382374 14.509956 37.347656 15.976562 C 39.312356 17.443751 40.57712 19.471495 41.140625 22.058594 L 35.496094 23.115234 C 35.099079 21.731369 34.354176 20.640447 33.259766 19.839844 C 32.165355 19.039242 30.798279 18.638672 29.160156 18.638672 C 26.676194 18.638672 24.701558 19.426386 23.236328 21.001953 C 21.770517 22.578102 21.039062 24.916556 21.039062 28.017578 C 21.039062 31.361579 21.780603 33.869307 23.265625 35.541016 C 24.750647 37.212725 26.696977 38.048828 29.103516 38.048828 C 30.293397 38.048828 31.486728 37.81613 32.683594 37.347656 C 33.88046 36.880346 34.90756 36.31307 35.765625 35.646484 L 35.765625 32.072266 L 29.255859 32.072266 L 29.255859 27.326172 L 41.503906 27.326172 L 41.503906 38.548828 C 40.314025 39.701952 38.588755 40.716234 36.330078 41.59375 C 34.071401 42.470683 31.783105 42.910156 29.466797 42.910156 C 26.522367 42.910156 23.956399 42.293087 21.767578 41.056641 C 19.578757 39.820194 17.934798 38.052373 16.833984 35.751953 C 15.732588 33.452698 15.183594 30.951682 15.183594 28.248047 C 15.183594 25.314253 15.796508 22.705808 17.025391 20.425781 C 18.254274 18.145755 20.053757 16.396905 22.421875 15.179688 C 24.226489 14.245069 26.472447 13.777344 29.160156 13.777344 z "
+   style="fill:#ffffff" />
+
+</svg>
