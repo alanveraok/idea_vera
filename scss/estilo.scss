@@ -1,6 +1,9 @@
 @import "estructuras";
 @import "animaciones-transformaciones";
 @import "variables";
+@import "extend";
+@import "mixin";
+@import "map";
 
 
 * {
@@ -16,7 +19,7 @@
   /* height: auto; */
   margin: 0 auto;
   .col1 p {
-    border: $tipo-border;
+    // border: $tipo-border;
     font-size: 60px;
     text-align: start;
     align-items: center;
@@ -33,7 +36,7 @@
 
 .succeed {
   text-align: center;
-  font-style: $tipo-titulo;
+  // font-style: $tipo-titulo;
   font-size: 50px;
 }
 
