@@ -14,15 +14,12 @@ a {
 h1 {
   text-align: center;
   font-size: 50px;
-  font-style: italic;
   margin-bottom: 30px; }
 
 h2,
 h3,
 h4 {
   text-align: center;
-  font-size: 40px;
-  font-style: italic;
   margin-top: 35px; }
 
 .partes {
@@ -59,22 +56,6 @@ h4 {
   background-image: linear-gradient(to bottom, #9c6392, #c198ad);
   border: 2px solid;
   padding: 30px; }
-  .formulario button {
-    color: whitesmoke;
-    background-color: #9c6392;
-    border: 1px solid whitesmoke;
-    border-radius: 4px;
-    padding: 0 15px;
-    margin-bottom: 25px;
-    cursor: pointer;
-    height: 32px;
-    font-size: 14px;
-    transition: all 0.2s ease-in-out; }
-    .formulario button:hover {
-      transform: scale(1.1);
-      background-color: #9c6392;
-      color: whitesmoke;
-      border: 1px solid whitesmoke; }
 
 .grid-footer {
   grid-area: grid-footer;
@@ -85,10 +66,43 @@ h4 {
 
 h1 {
   text-align: center;
-  font-size: 50px;
-  font-style: italic; }
+  font-size: 50px; }
   h1:hover {
     transform: scale(1.6); }
+
+.boton, .boton-subscribir, .btn1 {
+  color: whitesmoke;
+  background-color: #9c6392;
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  padding: 0 15px;
+  margin-bottom: 25px;
+  height: 32px;
+  font-size: 14px;
+  margin: 0 auto;
+  cursor: pointer; }
+
+.boton-subscribir {
+  transition: all 0.2s ease-in-out; }
+  .boton-subscribir:hover {
+    transform: scale(1.1);
+    background-color: whitesmoke;
+    color: #9c6392;
+    border: 1px solid whitesmoke; }
+
+.btn1 {
+  transition: all 0.2s ease-in-out; }
+  .btn1:hover {
+    transform: scale(1.1);
+    background-color: #9c6392;
+    color: whitesmoke;
+    border: 1px solid whitesmoke; }
+
+.news-p {
+  color: whitesmoke;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px; }
 
 * {
   margin: 0;
@@ -113,7 +127,6 @@ h1 {
 
 .succeed {
   text-align: center;
-  font-style: italic;
   font-size: 50px; }
 
 .clearfix {
@@ -176,6 +189,9 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto; }
+
+.navbar-expand-lg {
+  color: blue; }
 
 /*para mobile*/
 @media (max-width: 767px) {
