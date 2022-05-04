@@ -1,29 +1,29 @@
-// $heading: (
-//   h2: 60px,
-//   h3: 60px,
-//   h4: 60px,
-// );
+$heading: (
+  h2: 60px,
+  h3: 60px,
+  h4: 60px,
+);
 
-// $h2: map-get(
-//   $heading: h2,
-// );
+$h2: map-get(
+  $heading: h2,
+);
 
-// h2 {
-//   font-size: $h2;
-// }
+h2 {
+  font-size: $h2;
+}
 
-// $h3: map-get(
-//   $heading: h3,
-// );
+$h3: map-get(
+  $heading: h3,
+);
 
-// h3 {
-//   font-size: $h3;
-// }
+h3 {
+  font-size: $h3;
+}
 
-// $h4: map-get(
-//   $heading: h4,
-// );
+$h4: map-get(
+  $heading: h4,
+);
 
-// h4 {
-//   font-size: $h4;
-// }
+h4 {
+  font-size: $h4;
+}
