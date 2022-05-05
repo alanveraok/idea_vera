@@ -144,6 +144,12 @@ h1 {
 .tranformacion1:hover {
   transform: scale(1.6); }
 
+/*parts of exam parts of exam parts of exam*/
+.parts-of-exam-pics img {
+  width: 300px;
+  height: 230px; }
+
+/*more-exams more-exams more-exams*/
 .cards-exams {
   margin-top: 35px;
   display: flex;
