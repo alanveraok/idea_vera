@@ -36,7 +36,7 @@
 .succeed {
   text-align: center;
   // font-style: $tipo-titulo;
-  font-size: 120px;
+  font-size: 55px;
 }
 
 .clearfix {
@@ -65,7 +65,13 @@
   height: 230px;
 }
 
-
+.partes {
+  h2,
+  h3,
+  h4 {
+    font-size: 60px;
+  }
+}
 
 /*more-exams more-exams more-exams*/
 
@@ -178,6 +184,10 @@
     margin-top: 35px;
   }
 
+  .parts-of-exam-pics img {
+    display: none;
+  }
+
   .news-img,
   .plataforma-img {
     display: none;
@@ -226,6 +236,10 @@
     margin: 0 auto;
     height: 100%;
     width: 50%;
+  }
+
+  .parts-of-exam-pics img {
+    display: none;
   }
 
   .news-img,

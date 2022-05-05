@@ -127,7 +127,7 @@ h1 {
 
 .succeed {
   text-align: center;
-  font-size: 120px; }
+  font-size: 55px; }
 
 .clearfix {
   padding: 20px;
@@ -148,6 +148,11 @@ h1 {
 .parts-of-exam-pics img {
   width: 300px;
   height: 230px; }
+
+.partes h2,
+.partes h3,
+.partes h4 {
+  font-size: 60px; }
 
 /*more-exams more-exams more-exams*/
 .cards-exams {
@@ -226,6 +231,8 @@ h1 {
     border: 2px solid #9c6392;
     padding: 20px;
     margin-top: 35px; }
+  .parts-of-exam-pics img {
+    display: none; }
   .news-img,
   .plataforma-img {
     display: none; }
@@ -260,6 +267,8 @@ h1 {
     margin: 0 auto;
     height: 100%;
     width: 50%; }
+  .parts-of-exam-pics img {
+    display: none; }
   .news-img,
   .plataforma-img {
     display: none; } }
