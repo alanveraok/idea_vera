@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-color: #9c6392;
   color: whitesmoke; }
@@ -128,12 +129,12 @@ h1 {
 
 .succeed {
   text-align: center;
-  font-size: 50px; }
+  font-size: 70px; }
 
 .clearfix {
   padding: 20px;
   text-align: center;
-  font-size: 50px; }
+  font-size: 35px; }
   .clearfix:hover {
     background-color: white;
     color: #9c6392; }
@@ -145,25 +146,27 @@ h1 {
 .tranformacion1:hover {
   transform: scale(1.6); }
 
-/* more exams more exams more exams*/
-.cards-exams {
-  margin-top: 35px;
-  display: flex;
-  justify-content: space-evenly; }
-  .cards-exams .card {
-    border: solid 4px black; }
-  .cards-exams .card-text {
-    color: #9c6392;
-    text-align: justify; }
+/*parts of exam parts of exam parts of exam*/
+.partes h2,
+.partes h3 {
+  font-size: 80px;
+  margin-bottom: 30px; }
+
+.partes p {
+  font-size: 2rem; }
 
 .faqs {
   text-align: center;
-  margin-top: 50px; }
+  margin-top: 50px;
+  font-size: 40px;
+  font-style: italic; }
 
 .carrusel-titulo {
+  font-size: 40px;
   text-align: center;
   font-style: italic;
-  margin-bottom: 20px; }
+  margin-top: 40px;
+  margin-bottom: 40px; }
 
 #carouselExampleIndicators {
   width: 300px;
@@ -184,6 +187,17 @@ h1 {
 .accordion {
   margin: 20px 20px; }
 
+/* more exams more exams more exams*/
+.cards-exams {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-evenly; }
+  .cards-exams .card {
+    border: solid 4px black; }
+  .cards-exams .card-text {
+    color: #9c6392;
+    text-align: justify; }
+
 /*news news news news*/
 .news-img {
   text-align: center; }
@@ -192,9 +206,6 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto; }
-
-.navbar-expand-lg {
-  color: blue; }
 
 /*para mobile*/
 @media (max-width: 767px) {
@@ -232,7 +243,9 @@ h1 {
     display: flex;
     gap: 10px;
     margin-left: 20px;
-    margin-right: 20px; } }
+    margin-right: 20px;
+    flex-direction: row;
+    /*acá*/ } }
 
 /*tablet*/
 @media (min-width: 768px) and (max-width: 1023px) {
