@@ -127,12 +127,12 @@ h1 {
 
 .succeed {
   text-align: center;
-  font-size: 50px; }
+  font-size: 120px; }
 
 .clearfix {
   padding: 20px;
   text-align: center;
-  font-size: 50px; }
+  font-size: 25px; }
   .clearfix:hover {
     background-color: white;
     color: #9c6392; }

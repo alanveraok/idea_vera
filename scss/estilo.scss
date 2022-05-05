@@ -5,7 +5,6 @@
 @import "mixin";
 @import "map";
 
-
 * {
   margin: 0;
   padding: 0;
@@ -37,7 +36,7 @@
 .succeed {
   text-align: center;
   // font-style: $tipo-titulo;
-  font-size: 50px;
+  font-size: 120px;
 }
 
 .clearfix {
@@ -47,7 +46,7 @@
   }
   padding: 20px;
   text-align: center;
-  font-size: 50px;
+  font-size: 25px;
   iframe {
     display: block;
     margin-left: auto;
