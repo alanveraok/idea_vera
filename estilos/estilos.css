@@ -153,7 +153,7 @@ h1 {
 .partes h2,
 .partes h3,
 .partes h4 {
-  font-size: 60px; }
+  font-size: 45px; }
 
 /*more-exams more-exams more-exams*/
 .partes h2,
@@ -215,6 +215,11 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto; }
+
+/*titulos h1*/
+.transformacion1 {
+  font-size: 70px;
+  font-style: italic; }
 
 /*para mobile*/
 @media (max-width: 767px) {
