@@ -10,7 +10,7 @@
   padding: 0;
 }
 
-//index  index index index
+/*index  index index index*/
 .container-banner {
   display: flex;
   flex-direction: row;
@@ -36,7 +36,11 @@
 .succeed {
   text-align: center;
   // font-style: $tipo-titulo;
+<<<<<<< HEAD
   font-size: 55px;
+=======
+  font-size: 70px;
+>>>>>>> mi-rama
 }
 
 .clearfix {
@@ -46,7 +50,11 @@
   }
   padding: 20px;
   text-align: center;
+<<<<<<< HEAD
   font-size: 25px;
+=======
+  font-size: 35px;
+>>>>>>> mi-rama
   iframe {
     display: block;
     margin-left: auto;
@@ -59,6 +67,7 @@
 }
 
 /*parts of exam parts of exam parts of exam*/
+<<<<<<< HEAD
 
 .parts-of-exam-pics img {
   width: 300px;
@@ -74,29 +83,33 @@
 }
 
 /*more-exams more-exams more-exams*/
+=======
+>>>>>>> mi-rama
 
-.cards-exams {
-  margin-top: 35px;
-  display: flex;
-  justify-content: space-evenly;
-  .card {
-    border: solid 4px black;
+.partes {
+  h2,
+  h3 {
+    font-size: 80px;
+    margin-bottom: 30px;
   }
-  .card-text {
-    color: $color-texto;
-    text-align: justify;
+  p {
+    font-size: 2rem;
   }
 }
 
 .faqs {
   text-align: center;
   margin-top: 50px;
+  font-size: 40px;
+  font-style: italic;
 }
 
 .carrusel-titulo {
+  font-size: 40px;
   text-align: center;
   font-style: italic;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 #carouselExampleIndicators {
@@ -123,7 +136,22 @@
   margin: 20px 20px;
 }
 
-// news news news news
+/* more exams more exams more exams*/
+
+.cards-exams {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-evenly;
+  .card {
+    border: solid 4px black;
+  }
+  .card-text {
+    color: $color-texto;
+    text-align: justify;
+  }
+}
+
+/*news news news news*/
 
 .news-img {
   text-align: center;
@@ -135,9 +163,6 @@
   margin-right: auto;
 }
 
-.navbar-expand-lg {
-  color: blue;
-}
 
 //media queries
 
@@ -207,8 +232,12 @@
     gap: 10px;
     margin-left: 20px;
     margin-right: 20px;
+<<<<<<< HEAD
     flex-direction: column;
     align-items: center;
+=======
+    flex-direction: row; /*acá*/
+>>>>>>> mi-rama
   }
 }
 

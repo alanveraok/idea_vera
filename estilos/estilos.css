@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-color: #9c6392;
   color: whitesmoke; }
@@ -108,6 +109,7 @@ h1 {
   margin: 0;
   padding: 0; }
 
+/*index  index index index*/
 .container-banner {
   display: flex;
   flex-direction: row;
@@ -127,12 +129,20 @@ h1 {
 
 .succeed {
   text-align: center;
+<<<<<<< HEAD
   font-size: 55px; }
+=======
+  font-size: 70px; }
+>>>>>>> mi-rama
 
 .clearfix {
   padding: 20px;
   text-align: center;
+<<<<<<< HEAD
   font-size: 25px; }
+=======
+  font-size: 35px; }
+>>>>>>> mi-rama
   .clearfix:hover {
     background-color: white;
     color: #9c6392; }
@@ -145,6 +155,7 @@ h1 {
   transform: scale(1.6); }
 
 /*parts of exam parts of exam parts of exam*/
+<<<<<<< HEAD
 .parts-of-exam-pics img {
   width: 300px;
   height: 230px; }
@@ -164,15 +175,28 @@ h1 {
   .cards-exams .card-text {
     color: #9c6392;
     text-align: justify; }
+=======
+.partes h2,
+.partes h3 {
+  font-size: 80px;
+  margin-bottom: 30px; }
+
+.partes p {
+  font-size: 2rem; }
+>>>>>>> mi-rama
 
 .faqs {
   text-align: center;
-  margin-top: 50px; }
+  margin-top: 50px;
+  font-size: 40px;
+  font-style: italic; }
 
 .carrusel-titulo {
+  font-size: 40px;
   text-align: center;
   font-style: italic;
-  margin-bottom: 20px; }
+  margin-top: 40px;
+  margin-bottom: 40px; }
 
 #carouselExampleIndicators {
   width: 300px;
@@ -193,6 +217,18 @@ h1 {
 .accordion {
   margin: 20px 20px; }
 
+/* more exams more exams more exams*/
+.cards-exams {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-evenly; }
+  .cards-exams .card {
+    border: solid 4px black; }
+  .cards-exams .card-text {
+    color: #9c6392;
+    text-align: justify; }
+
+/*news news news news*/
 .news-img {
   text-align: center; }
 
@@ -200,9 +236,6 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto; }
-
-.navbar-expand-lg {
-  color: blue; }
 
 /*para mobile*/
 @media (max-width: 767px) {
@@ -247,8 +280,13 @@ h1 {
     gap: 10px;
     margin-left: 20px;
     margin-right: 20px;
+<<<<<<< HEAD
     flex-direction: column;
     align-items: center; } }
+=======
+    flex-direction: row;
+    /*acá*/ } }
+>>>>>>> mi-rama
 
 /*tablet*/
 @media (min-width: 768px) and (max-width: 1023px) {
