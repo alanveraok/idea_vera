@@ -137,6 +137,10 @@
   margin-right: auto;
 }
 
+.plataforma,
+.news-p {
+  @include news-parrafos;
+}
 
 //media queries
 
