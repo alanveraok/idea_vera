@@ -228,6 +228,10 @@ h1 {
   body {
     background-color: whitesmoke;
     color: #9c6392; }
+  .navbar-brand {
+    display: none; }
+  .form-control {
+    display: none; }
   .container-banner {
     flex-direction: row-reverse; }
   .container-banner p {
@@ -255,10 +259,12 @@ h1 {
   .news-img,
   .plataforma-img {
     display: none; }
-  .plataforma p {
-    text-align: justify;
+  .plataforma,
+  .news-p {
+    text-align: center;
     margin-left: 15px;
-    margin-right: 15px; }
+    margin-right: 15px;
+    color: #9c6392; }
   .row {
     flex-direction: column; }
   .cards-exams {
@@ -267,13 +273,19 @@ h1 {
     margin-left: 20px;
     margin-right: 20px;
     flex-direction: column;
-    align-items: center; } }
+    align-items: center; }
+  .formulario {
+    color: whitesmoke; } }
 
 /*tablet*/
 @media (min-width: 768px) and (max-width: 1023px) {
   body {
     background-color: white;
     color: #9c6392; }
+  .navbar-brand {
+    display: none; }
+  .form-control {
+    display: none; }
   .partes {
     flex-direction: column;
     gap: 10px;
@@ -296,4 +308,9 @@ h1 {
     display: none; }
   .news-img,
   .plataforma-img {
-    display: none; } }
+    display: none; }
+  .plataforma,
+  .news-p {
+    color: #9c6392; }
+  .formulario {
+    color: whitesmoke; } }
