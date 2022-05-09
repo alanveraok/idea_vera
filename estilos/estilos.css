@@ -140,6 +140,9 @@ h1 {
   transform: scale(1.6); }
 
 /*parts of exam parts of exam parts of exam*/
+.media {
+  text-align: center; }
+
 .parts-of-exam-pics img {
   width: 300px;
   height: 230px; }
@@ -230,7 +233,7 @@ h1 {
     color: #9c6392; }
   .navbar-brand {
     display: none; }
-  .form-control {
+  .form-control2 {
     display: none; }
   .container-banner {
     flex-direction: row-reverse; }
@@ -284,7 +287,7 @@ h1 {
     color: #9c6392; }
   .navbar-brand {
     display: none; }
-  .form-control {
+  .form-control2 {
     display: none; }
   .partes {
     flex-direction: column;
