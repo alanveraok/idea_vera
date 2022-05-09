@@ -152,6 +152,13 @@
   margin-right: auto;
 }
 
+/*mixin*/
+
+.plataforma,
+.news-p {
+  @include news-parrafos;
+}
+
 /*titulos h1*/
 
 .transformacion1 {

@@ -210,6 +210,14 @@ h1 {
   margin-left: auto;
   margin-right: auto; }
 
+/*mixin*/
+.plataforma,
+.news-p {
+  color: whitesmoke;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 30px; }
+
 /*titulos h1*/
 .transformacion1 {
   font-size: 70px;
