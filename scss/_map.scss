@@ -1,0 +1,9 @@
+$footer: (
+  p: 50px,
+);
+
+$footer: map-get(footer, p);
+
+.grid-footer {
+  font-size: $footer;
+}
