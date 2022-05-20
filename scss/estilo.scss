@@ -15,10 +15,10 @@
   display: flex;
   flex-direction: row;
   width: 40%;
-  /* height: auto; */
+
   margin: 0 auto;
   .col1 p {
-    // border: $tipo-border;
+    
     font-size: 60px;
     text-align: start;
     align-items: center;
@@ -35,7 +35,6 @@
 
 .succeed {
   text-align: center;
-  // font-style: $tipo-titulo;
   font-size: 55px;
 }
 
@@ -315,4 +314,9 @@
   .formulario {
     color: whitesmoke;
   }
+}
+
+.grid-footer {
+  background-color: whitesmoke;
+  color: #9c6392;
 }

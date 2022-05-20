@@ -107,7 +107,6 @@ h1 {
   display: flex;
   flex-direction: row;
   width: 40%;
-  /* height: auto; */
   margin: 0 auto; }
   .container-banner .col1 p {
     font-size: 60px;
@@ -317,3 +316,7 @@ h1 {
     color: #9c6392; }
   .formulario {
     color: whitesmoke; } }
+
+.grid-footer {
+  background-color: whitesmoke;
+  color: #9c6392; }
