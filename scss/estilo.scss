@@ -12,19 +12,14 @@
 
 /*index  index index index*/
 .container-banner {
-  display: flex;
-  flex-direction: row;
-  width: 40%;
-
-  margin: 0 auto;
+  
   .col1 p {
-    
     font-size: 60px;
     text-align: start;
-    align-items: center;
   }
   .col2 img {
-    width: 450px;
+    max-width: 450px;
+    width: 100%;
     height: auto;
   }
 }
@@ -60,7 +55,13 @@
 /*parts of exam parts of exam parts of exam*/
 
 .media {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.parts-of-exam-pics {
+  display: flex;
+  justify-content: center;
 }
 
 .parts-of-exam-pics img {
@@ -133,7 +134,8 @@
 .cards-exams {
   margin-top: 35px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 50px;
   .card {
     border: solid 4px black;
   }
@@ -177,9 +179,10 @@
     background-color: whitesmoke;
     color: #9c6392;
   }
-  .navbar-brand {
-    display: none;
-  }
+
+  // .navbar-brand {
+  //   display: none;
+  // }
 
   .form-control2 {
     display: none;
@@ -263,9 +266,9 @@
     color: #9c6392;
   }
 
-  .navbar-brand {
-    display: none;
-  }
+  // .navbar-brand {
+  //   display: none;
+  // }
 
   .form-control2 {
     display: none;
@@ -321,6 +324,6 @@
   color: #9c6392;
 }
 
-.card-body{
+.card-body {
   color: #9c6392;
 }

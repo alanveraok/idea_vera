@@ -4,9 +4,6 @@ body {
 }
 
 //navbar
-.navbar-toggler {
-  background-color: #9c6392;
-}
 
 a {
   text-decoration: none;
@@ -29,7 +26,7 @@ h3,
 h4 {
   // font-style: $tipo-titulo;
   text-align: center;
- 
+
   margin-top: 35px;
 }
 
@@ -60,6 +57,9 @@ h4 {
     &:hover {
       background-color: white;
       color: #9c6392;
+      padding: 15px;
+      margin: 10px;
+      list-style: none;
     }
   }
 }
@@ -71,8 +71,6 @@ h4 {
   background-image: linear-gradient(to bottom, #9c6392, #c198ad);
   border: 2px solid;
   padding: 30px;
-
-
 }
 
 //footer
