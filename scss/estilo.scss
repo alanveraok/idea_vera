@@ -144,6 +144,11 @@
   }
 }
 
+span {
+  color: black;
+  font-weight: bolder;
+}
+
 /*news news news news*/
 
 .news-img {
@@ -179,10 +184,6 @@
     color: #9c6392;
   }
 
-  // .navbar-brand {
-  //   display: none;
-  // }
-
   .form-control2 {
     display: none;
   }
@@ -204,6 +205,16 @@
     gap: 10px;
     background-color: white;
     color: #9c6392;
+  }
+
+  .partes p {
+    font-size: 15px;
+  }
+
+  .partes h2,
+  h3 {
+    font-size: 40px;
+    margin-bottom: 30px;
   }
 
   .media {
@@ -264,10 +275,6 @@
     background-color: white;
     color: #9c6392;
   }
-
-  // .navbar-brand {
-  //   display: none;
-  // }
 
   .form-control2 {
     display: none;
