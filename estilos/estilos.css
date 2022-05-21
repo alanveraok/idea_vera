@@ -68,7 +68,7 @@ h1 {
   text-align: center;
   font-size: 50px; }
   h1:hover {
-    transform: scale(1.6); }
+    transform: scale(1.2); }
 
 .boton, .boton-subscribir, .btn1 {
   color: whitesmoke;
@@ -132,7 +132,7 @@ h1 {
     margin-right: auto; }
 
 .tranformacion1:hover {
-  transform: scale(1.6); }
+  transform: scale(1.2); }
 
 /*parts of exam parts of exam parts of exam*/
 .media {
